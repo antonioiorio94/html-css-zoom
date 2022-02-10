@@ -5,6 +5,24 @@
     padding: 0px;
   }
 
+ 
 /* Utilities */
-
+body{
+    background-color: black;
+    font-family: 'Open Sans', sans-serif;
+}
 /* Content */
+
+header{
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav button{
+    color: white;
+    background-color: gray;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
