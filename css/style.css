@@ -60,7 +60,7 @@ nav button{
 }
 
 .web-cam{
-    background-image: url(https://picsum.photos/id/3/200/300);
+    background-image: url(https://picsum.photos/200/300?grayscale);
     background-size: cover;
     display: flex;
     align-items: flex-end;
@@ -96,6 +96,10 @@ footer div{
 
 footer button{
     color:rgb(124, 23, 23);
-    background-color: gray;
+    background-color: rgb(172, 197, 201);
     font-weight: bolder;
+}
+
+.share {
+    color: rgb(99, 201, 99);
 }
