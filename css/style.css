@@ -11,11 +11,28 @@ body{
     background-color: black;
     font-family: 'Open Sans', sans-serif;
 }
+
+main{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+
+}
+
+p{
+    color: white;
+    background-color: rgba(236, 236, 236, 0.5);
+    padding: 3px;
+}
 /* Content */
 
 header{
     display: flex;
     justify-content: flex-end;
+    height: 5vh;
 }
 
 nav button{
@@ -26,3 +43,14 @@ nav button{
     margin-top: 10px;
     margin-right: 5px;
 }
+
+.web-cam{
+    background-image: url(https://picsum.photos/id/3/200/300);
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    flex-basis: calc(85vw / 7);
+    height: calc(70vh / 5);
+    margin-bottom: 2vh;
+}
+
