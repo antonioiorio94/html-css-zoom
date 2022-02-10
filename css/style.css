@@ -84,3 +84,18 @@ div>i{
     padding: 10px;
     align-items: center;
 }
+
+footer div{
+    margin-right: 20px;
+}
+
+.chevron-up{
+    font-size: small;
+    margin-right: 20px;
+}
+
+footer button{
+    color:rgb(124, 23, 23);
+    background-color: gray;
+    font-weight: bolder;
+}
